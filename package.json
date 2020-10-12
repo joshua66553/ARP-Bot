@@ -1,0 +1,43 @@
+{
+  "name": "mods",
+  "repository": "https://github.com/dbm-network/mods",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint actions events extensions",
+    "lint:fix": "eslint actions events extensions --fix"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "channel": "0.0.1",
+    "discord.js": "^12.3.1",
+    "fstorm": "^0.1.3",
+    "hh-mm-ss": "^1.2.0",
+    "i": "^0.3.6",
+    "jimp": "^0.16.1",
+    "join": "^3.0.0",
+    "libsodium-wrappers": "latest",
+    "moment": "^2.29.0",
+    "moment-duration-format": "^2.3.2",
+    "node-cron": "^2.0.3",
+    "npm": "^6.14.8",
+    "opusscript": "latest",
+    "radio": "^0.2.0",
+    "request": "^2.88.2",
+    "simple-youtube-api": "^5.2.1",
+    "valid-url": "^1.0.9",
+    "voice": "0.0.0",
+    "ytdl-core": "latest",
+    "ytpl": "^1.0.1",
+    "ytsr": "^1.0.3"
+  },
+  "is-music-bot": true
+}
